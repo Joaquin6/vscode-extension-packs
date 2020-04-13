@@ -2,9 +2,20 @@
   "name": "git-extension-pack",
   "displayName": "JBConfig Git Extensions",
   "publisher": "joaquin6",
+  "author": {
+    "name": "Joaquin Briceno",
+    "email": "joaquinbriceno1@gmail.com"
+  },
   "description": "JBConfig git set of extensions",
-  "repository": "https://github.com/Joaquin6/vscode-extension-packs",
-  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/Joaquin6/vscode-extension-packs"
+  },
+  "version": "0.1.0",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#212121",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.44.0"
   },
@@ -14,8 +25,11 @@
   "extensionPack": [
     "bibhasdn.git-easy",
     "donjayamanne.githistory",
-		"eamodio.gitlens",
+    "eamodio.gitlens",
     "everspace.rightclick-git",
     "felipecaputo.git-project-manager"
-  ]
+  ],
+  "scripts": {
+    "package": "vsce package"
+  }
 }

@@ -104,3 +104,4 @@ dist
 .tern-port
 
 *.vsix
+.DS_Store
