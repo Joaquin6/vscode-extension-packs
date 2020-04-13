@@ -10,11 +10,11 @@
   "repository": {
     "url": "https://github.com/Joaquin6/vscode-extension-packs"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "icon": "images/logo.png",
   "galleryBanner": {
-      "color": "#212121",
-      "theme": "dark"
+    "color": "#212121",
+    "theme": "dark"
   },
   "engines": {
     "vscode": "^1.44.0"
@@ -23,8 +23,8 @@
     "Extension Packs"
   ],
   "extensionPack": [
-		"oderwat.indent-rainbow",
-		"2gua.rainbow-brackets"
+    "oderwat.indent-rainbow",
+    "2gua.rainbow-brackets"
   ],
   "scripts": {
     "package": "vsce package"
