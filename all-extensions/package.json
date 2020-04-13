@@ -12,6 +12,7 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "joaquin6.core-extension-pack"
+    "joaquin6.core-extension-pack",
+    "joaquin6.git-extension-pack"
   ]
 }
