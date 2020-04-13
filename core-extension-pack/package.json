@@ -1,0 +1,18 @@
+{
+  "name": "core-extension-pack",
+  "displayName": "JBConfig Core Extensions",
+  "publisher": "joaquin6",
+  "description": "JBConfig core set of extensions",
+  "repository": "https://github.com/Joaquin6/vscode-extension-packs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+		"oderwat.indent-rainbow",
+		"2gua.rainbow-brackets"
+  ]
+}

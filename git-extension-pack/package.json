@@ -1,0 +1,21 @@
+{
+  "name": "git-extension-pack",
+  "displayName": "JBConfig Git Extensions",
+  "publisher": "joaquin6",
+  "description": "JBConfig git set of extensions",
+  "repository": "https://github.com/Joaquin6/vscode-extension-packs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "bibhasdn.git-easy",
+    "donjayamanne.githistory",
+		"eamodio.gitlens",
+    "everspace.rightclick-git",
+    "felipecaputo.git-project-manager"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "jbconfig-extensions",
+  "displayName": "JBConfig Extensions Packs",
+  "publisher": "joaquin6",
+  "description": "All JBConfig extension packs",
+  "repository": "https://github.com/Joaquin6/vscode-extension-packs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "joaquin6.core-extension-pack"
+  ]
+}
