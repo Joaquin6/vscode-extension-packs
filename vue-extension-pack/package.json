@@ -1,12 +1,12 @@
 {
-  "name": "core-extension-pack",
-  "displayName": "JBConfig Core Extensions",
+  "name": "vue-extension-pack",
+  "displayName": "JBConfig Vue Extensions",
   "publisher": "joaquin6",
   "author": {
     "name": "Joaquin Briceno",
     "email": "joaquinbriceno1@gmail.com"
   },
-  "description": "JBConfig core set of extensions",
+  "description": "JBConfig vue set of extensions",
   "repository": {
     "url": "https://github.com/Joaquin6/vscode-extension-packs"
   },
@@ -23,12 +23,12 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "2gua.rainbow-brackets",
-    "alefragnani.Bookmarks",
-    "CoenraadS.bracket-pair-colorizer",
-    "oderwat.indent-rainbow",
-    "xabikos.JavaScriptSnippets",
-    "gruntfuggly.todo-tree"
+    "cbuisson.vue",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "octref.vetur",
+    "peakchen90.vue-beautify",
+    "sdras.vue-vscode-snippets"
   ],
   "scripts": {
     "package": "vsce package"

@@ -24,7 +24,8 @@
   ],
   "extensionPack": [
     "joaquin6.core-extension-pack",
-    "joaquin6.git-extension-pack"
+    "joaquin6.git-extension-pack",
+    "joaquin6.vue-extension-pack"
   ],
   "scripts": {
     "package": "vsce package"
